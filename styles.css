@@ -1,0 +1,109 @@
+body{
+    background: beige;
+}
+.brand{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -7px;
+    margin-right: -8px;
+    margin-top: -10px;
+    background-color: whitesmoke;
+}
+h1{
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+}
+i{
+    font-size: 25px;
+}
+.post{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+#user{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+}
+.name{
+    font-family: 'Didact Gothic', sans-serif;
+    justify-content: space-between;
+}
+.date{
+    color: rgb(152, 152, 152);
+}
+.photo{
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+}
+#interstellar{
+    width: 603px;
+    height: 603px;
+}
+#pizza{
+    width: 603px;
+    height: 603px;
+
+}
+.box{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+.interacts{
+    padding: 5px 0px 0px 10px;
+    font-size: 25px;
+    display: inline-block;
+    background-color: whitesmoke;
+}
+.save{
+    display: inline-block;
+    margin-left: 290px;
+    padding: 10px 0px 0px 170px;
+    font-size: 25px;
+    background-color: whitesmoke;
+}
+.likes{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: left;
+    font-size: 12px;
+    margin-left: -200px;
+    margin-top: -10px;
+    margin-bottom: -15px;
+}
+.text{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: center;
+    align-items: center;
+    font-family: 'Assistant', sans-serif;
+}
+p{
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 25px;
+    margin-top: 25px;
+}
